@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/timeline.css" />
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+        <style type="text/css">
+        .icon {
+          width: 1em; height: 1em;
+          vertical-align: -0.15em;
+          fill: currentColor;
+          overflow: hidden;
+        }
+
+       </style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">个人主页</h1>
+		</header>
+		<div class="mui-content">
+
+			<div class="header">
+				<div class="info">
+					<img src="images/title3.png" />
+					<div class="name">
+						名字
+					</div>
+					<div class="ins">
+						介绍打瞌睡呢插上哈哈哈哈哈哈哈哈哈
+					</div>
+				</div>
+				<!--粉丝和关注-->
+				<div class="other">
+					<span class="mui-icon iconfont">
+                                                                <svg class="icon" aria-hidden="true">
+                                                                <use xlink:href="#icon-fensi"></use>
+                                                                </svg>
+                    </span>
+				    <span>粉丝：838</span>
+					<!--<span class="mui-icon iconfont icon-fensi">粉丝：828</span>-->&nbsp;&nbsp;&nbsp;&nbsp;
+					<!--<span class="mui-icon iconfont icon-guanzhu">关注：100</span>-->
+					<span class="mui-icon iconfont">
+                                                                <svg class="icon" aria-hidden="true">
+                                                                <use xlink:href="#icon-guanzhu"></use>
+                                                                </svg>
+                                            </span>
+									<span>关注：66</span>
+				</div>
+			</div>
+
+			<!--时间线-->
+			<div class="timeline">
+				
+				<div class='nearsite-message'>
+					<div class='avatar'>
+						<img src="images/timeline.png" />
+					</div>
+					<div class='content' id="articlegoTo">
+						<div class='triangle'></div>
+						<span>
+                    	文章名字
+                    	<img src="images/slider2.jpg" class="mui-pull-right"/>
+                    </span>
+					</div>
+				</div>
+
+				<div class="vertbar"></div>
+
+				<div class='nearsite-message'>
+					<div class='avatar'>
+						<img src="images/timeline.png" />
+					</div>
+					<div class='content'>
+						<div class='triangle'></div>
+						<span>
+                    	文章名字
+                    	<img src="images/slider2.jpg" class="mui-pull-right"/>
+					</div>
+				</div>
+				
+				<div class="vertbar"></div>
+
+				<div class='nearsite-message'>
+					<div class='avatar'>
+						<img src="images/timeline.png" />
+					</div>
+					<div class='content'>
+						<div class='triangle'></div>
+						<span>
+                    	文章名字
+                    	<img src="images/slider2.jpg" class="mui-pull-right"/>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<script src="js/mui.min.js"></script>
+	    <script src="js/iconfont.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init();
+			document.getElementById('articlegoTo').addEventListener('tap', function() {
+				//打开关于页面 
+				mui.openWindow({
+					url: 'article.html',
+					id: 'info'
+				});
+			});
+		</script>
+	</body>
+
+</html>

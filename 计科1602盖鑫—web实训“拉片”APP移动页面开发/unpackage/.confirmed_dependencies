@@ -1,0 +1,140 @@
+{
+	"login.html": {
+		"refer": [
+			"reg.html",
+			"forget_password.html",
+			"main.html",
+			"setting.html",
+			"index.html"
+		]
+	},
+	"reg.html": {
+		"refer": [
+			"login.html"
+		]
+	},
+	"forget_password.html": {
+		"refer": [
+			"login.html"
+		]
+	},
+	"main.html": {
+		"refer": [
+			"setting.html"
+		]
+	},
+	"index.html": {
+		"refer": [
+			"setting.html",
+			"picker.html",
+			"movie.html",
+			"article.html",
+			"search.html",
+			"action.html",
+			"video.html",
+			"news.html",
+			"timeline.html",
+			"feedback.html",
+			"im-chat.html",
+			"talk.html",
+			"login.html",
+			"address.html",
+			"fabu.html"
+		],
+		"resources": [
+			"css/login.css",
+			"images/QQ (1).png"
+		]
+	},
+	"setting.html": {
+		"refer": [
+			"login.html",
+			"news.html",
+			"im-chat.html"
+		],
+		"resources": [
+			"css/feedback-page.css"
+		]
+	},
+	"news.html": {
+		"refer": [
+			"setting.html"
+		]
+	},
+	"im-chat.html": {
+		"refer": [
+			"setting.html",
+			"index.html"
+		]
+	},
+	"picker.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"movie.html": {
+		"refer": [
+			"talk.html",
+			"index.html",
+			"talk_lauch.html",
+			"timeline.html"
+		]
+	},
+	"talk.html": {
+		"refer": [
+			"movie.html",
+			"article.html",
+			"action.html",
+			"video.html",
+			"timeline.html"
+		]
+	},
+	"timeline.html": {
+		"refer": [
+			"article.html",
+			"action.html",
+			"index.html",
+			"video.html",
+			"movie.html",
+			"talk.html"
+		]
+	},
+	"article.html": {
+		"refer": [
+			"talk_lauch.html",
+			"timeline.html",
+			"talk.html",
+			"index.html"
+		]
+	},
+	"talk_lauch.html": {
+		"refer": [
+			"article.html",
+			"movie.html"
+		]
+	},
+	"action.html": {
+		"refer": [
+			"timeline.html",
+			"talk.html",
+			"index.html"
+		]
+	},
+	"search.html": {
+		"refer": [
+			"index.html"
+		]
+	},
+	"video.html": {
+		"refer": [
+			"index.html",
+			"talk.html",
+			"timeline.html"
+		]
+	},
+	"fabu.html": {
+		"refer": [
+			"index.html"
+		]
+	}
+}

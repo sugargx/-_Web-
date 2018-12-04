@@ -1,0 +1,446 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<!--图标-->
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css" />
+		<!--本页样式-->
+		<link rel="stylesheet" type="text/css" href="css/movie.css" />
+
+		<style type="text/css">
+			.xuanji {
+				height: 80px;
+			}
+			
+			.xuanji .mui-scroll h5 {
+				height: 30px;
+				border-left: 10px solid green;
+				padding-top: 10px;
+				padding-left: 10px;
+			}
+			.icon {
+				width: 1em;
+				height: 1em;
+				vertical-align: -0.15em;
+				fill: currentColor;
+				overflow: hidden;
+			}
+		</style>
+		
+
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">电视剧详情页</h1>
+			<!--<a id="share"><span class="mui-icon iconfont icon-fenxiang mui-pull-right"></span></a>-->
+			<a id="share">
+
+				<span class="mui-icon iconfont mui-pull-right">
+                                                                <svg class="icon" aria-hidden="true">
+                                                                <use xlink:href="#icon-fenxiang2"></use>
+                                                                </svg>
+                                                        </span>
+
+			</a>
+		</header>
+		<div class="mui-content">
+			<div class="mui-scroll">
+				<video src="video/video.mp4" autoplay="autoplay" controls="controls" class="mui-col-xs-12"></video>
+
+				<!--评论数+分享-->
+				<div class="first">
+					<!--<a id="talkgoTo"><span class="mui-icon iconfont icon-pinglun"></span></a>
+					<span>44条评论</span>-->
+					<a href="#" id="talkgoTo">
+													
+														<span class="mui-icon iconfont">
+                                                                <svg class="icon" aria-hidden="true">
+                                                                <use xlink:href="#icon-pinglun"></use>
+                                                        </svg>
+                                                        </span>
+														<span>12</span>
+													</a>
+					<!--<a><span class="mui-icon iconfont icon-xin mui-pull-right">11</span></a>-->
+					<a href="">
+														<span class="mui-pull-right">1111</span>
+														<span class="mui-icon iconfont mui-pull-right">
+                                                                <svg class="icon" aria-hidden="true">
+                                                                <use xlink:href="#icon-xin"></use>
+                                                                </svg>
+                                                        </span>
+														
+													</a>
+				</div>
+
+				<!--电影名+介绍+类型-->
+				<div class="second">
+					<div class="name">
+						火线 第一季
+					</div>
+					<div class="time">
+						1988-04-16 上映 日本
+					</div>
+					<div class="type">
+						<button type="button" class="mui-btn mui-btn-success mui-btn-outlined">
+					剧情
+				    </button>
+						<button type="button" class="mui-btn mui-btn-success mui-btn-outlined">
+					犯罪
+				    </button>
+					</div>
+					<div class="info">
+						几十块的纳滤侧边栏绿豆沙HIV和好便开始啦balc nvjdklab dknvSLi你看见了吧
+					</div>
+				</div>
+
+				<div class="xuanji">
+					<div class="mui-scroll">
+						<h5 style="background-color:#efeff4">选集</h5>
+						<div class="mui-slider">
+							<div class="mui-slider-group mui-slider-loop">
+								<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一个图文表格) -->
+								<div class="mui-slider-item mui-slider-item-duplicate">
+									<ul class="mui-table-view mui-grid-view" style="height: 100px;">
+										<li class="mui-table-view-cell mui-media mui-col-xs-3">
+											<button type="button" class="mui-btn" style="margin-top: -17px;">5</button>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-3">
+											<button type="button" class="mui-btn" style="margin-top: -17px;">6</button>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-3">
+											<button type="button" class="mui-btn" style="margin-top: -17px;">7</button>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-3">
+
+											<button type="button" class="mui-btn" style="margin-top: -17px;">8</button>
+										</li>
+									</ul>
+								</div>
+								<div class="mui-slider-item">
+									<ul class="mui-table-view mui-grid-view" style="height: 100px;">
+										<li class="mui-table-view-cell mui-media mui-col-xs-3" style="height: 80px;">
+											<button type="button" class="mui-btn mui-btn-outlined mui-btn-success" style="margin-top: -17px;">1</button>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-3" style="height: 80px;">
+
+											<button type="button" class="mui-btn" style="margin-top: -17px;">2</button>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-3" style="height: 80px;">
+
+											<button type="button" class="mui-btn" style="margin-top: -17px;">3</button>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-3" style="height: 80px;">
+
+											<button type="button" class="mui-btn" style="margin-top: -17px;">4</button>
+										</li>
+									</ul>
+								</div>
+								<div class="mui-slider-item">
+									<ul class="mui-table-view mui-grid-view" style="height: 100px;">
+										<li class="mui-table-view-cell mui-media mui-col-xs-3" style="height: 80px;">
+
+											<button type="button" class="mui-btn" style="margin-top: -17px;">5</button>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-3" style="height: 80px;">
+
+											<button type="button" class="mui-btn" style="margin-top: -17px;">6</button>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-3" style="height: 80px;">
+
+											<button type="button" class="mui-btn" style="margin-top: -17px;">7</button>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-3" style="height: 80px;">
+
+											<button type="button" class="mui-btn" style="margin-top: -17px;">8</button>
+										</li>
+									</ul>
+								</div>
+								<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一个图文表格) -->
+								<div class="mui-slider-item mui-slider-item-duplicate">
+									<ul class="mui-table-view mui-grid-view" style="height: 100px;">
+										<li class="mui-table-view-cell mui-media mui-col-xs-3" style="height: 80px;">
+
+											<button type="button" class="mui-btn" style="margin-top: -17px;">1</button>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-3" style="height: 80px;">
+
+											<button type="button" class="mui-btn" style="margin-top: -17px;">2</button>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-3" style="height: 80px;">
+
+											<button type="button" class="mui-btn" style="margin-top: -17px;">3</button>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-3" style="height: 80px;">
+
+											<button type="button" class="mui-btn" style="margin-top: -17px;">4</button>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!--影人-->
+				<div class="thrid">
+					<div class="mui-scroll">
+						<h5 style="background-color:#efeff4">影人</h5>
+						<div class="mui-slider">
+							<div class="mui-slider-group mui-slider-loop">
+								<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一个图文表格) -->
+								<div class="mui-slider-item mui-slider-item-duplicate">
+									<ul class="mui-table-view mui-grid-view">
+										<li class="mui-table-view-cell mui-media mui-col-xs-4">
+											<a href="#"><img class="mui-media-object" src="images/movie.png">
+												<div class="mui-media-body">文章1</div>
+											</a>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-4">
+											<a href="#"><img class="mui-media-object" src="images/movie.png">
+												<div class="mui-media-body">文章2</div>
+											</a>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-4">
+											<a href="#"><img class="mui-media-object" src="images/movie.png">
+												<div class="mui-media-body">文章3</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="mui-slider-item">
+									<ul class="mui-table-view mui-grid-view">
+										<li class="mui-table-view-cell mui-media mui-col-xs-4">
+											<a href="#"><img class="mui-media-object" src="images/movie.png">
+												<div class="mui-media-body">哈哈1</div>
+											</a>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-4">
+											<a href="#"><img class="mui-media-object" src="images/movie.png">
+												<div class="mui-media-body">哈哈2</div>
+											</a>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-4">
+											<a href="#"><img class="mui-media-object" src="images/movie.png">
+												<div class="mui-media-body">哈哈3</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="mui-slider-item">
+									<ul class="mui-table-view mui-grid-view">
+										<li class="mui-table-view-cell mui-media mui-col-xs-4">
+											<a href="#"><img class="mui-media-object" src="images/movie.png">
+												<div class="mui-media-body">文章1</div>
+											</a>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-4">
+											<a href="#"><img class="mui-media-object" src="images/movie.png">
+												<div class="mui-media-body">文章2</div>
+											</a>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-4">
+											<a href="#"><img class="mui-media-object" src="images/movie.png">
+												<div class="mui-media-body">文章3</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一个图文表格) -->
+								<div class="mui-slider-item mui-slider-item-duplicate">
+									<ul class="mui-table-view mui-grid-view">
+										<li class="mui-table-view-cell mui-media mui-col-xs-4">
+											<a href="#"><img class="mui-media-object" src="images/movie.png">
+												<div class="mui-media-body">哈哈1</div>
+											</a>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-4">
+											<a href="#"><img class="mui-media-object" src="images/movie.png">
+												<div class="mui-media-body">哈哈2</div>
+											</a>
+										</li>
+										<li class="mui-table-view-cell mui-media mui-col-xs-4">
+											<a href="#"><img class="mui-media-object" src="images/movie.png">
+												<div class="mui-media-body">哈哈3</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<!--评论-->
+				<div class="forth">
+					<div class="mui-scroll">
+						<h5 style="background-color:#efeff4">最新评论</h5>
+						<ul class="mui-table-view">
+							<li class="mui-table-view-cell mui-media">
+								<a href="timeline.html" id="timelinegoTo">
+									<img class="mui-media-object mui-pull-left" src="images/title2.png">
+									<div class="mui-media-body">
+										网名
+										<p class='mui-ellipsis'>
+											评论内容
+										</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="timeline.html">
+									<img class="mui-media-object mui-pull-left" src="images/title1.png">
+									<div class="mui-media-body">
+										木屋
+										<p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+									</div>
+								</a>
+							</li>
+							<li class="mui-table-view-cell mui-media">
+								<a href="timeline.html">
+									<img class="mui-media-object mui-pull-left" src="images/title3.png">
+									<div class="mui-media-body">
+										CBD
+										<p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+									</div>
+								</a>
+							</li>
+
+						</ul>
+						<a href="talk.html" id="talkgoTo1">
+							<button type="button" class="left mui-btn mui-btn-success mui-pull-left">查看全部评论</button>
+						</a>
+						<a href="talk_lauch.html" id="talk_lauchgoTo">
+							<button type="button" class="right mui-btn mui-btn-success mui-pull-right">发表评论</button>
+						</a>
+					</div>
+				</div>
+
+			</div>
+
+			<!--内容end-->
+		</div>
+
+		<script src="js/mui.min.js"></script>
+		<script src="js/iconfont.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			mui.init();
+					//分享操作 
+		var shares = {};
+		mui.plusReady(function() {
+			plus.share.getServices(function(s) {
+				if(s && s.length > 0) {
+					for(var i = 0; i < s.length; i++) {
+						var t = s[i];
+						shares[t.id] = t;
+					}
+				}
+			}, function() {
+				console.log("获取分享服务列表失败");
+			});
+		});
+		//分享链接点击事件
+		document.getElementById("share").addEventListener('tap', function() {
+			var ids = [{
+					id: "weixin",
+					ex: "WXSceneSession"
+				}, {
+					id: "weixin",
+					ex: "WXSceneTimeline"
+				}, {
+					id: "sinaweibo"
+				}, {
+					id: "tencentweibo"
+				}, {
+					id: "qq"
+				}],
+				bts = [{
+					title: "发送给微信好友"
+				}, {
+					title: "分享到微信朋友圈"
+				}, {
+					title: "分享到新浪微博"
+				}, {
+					title: "分享到腾讯微博"
+				}, {
+					title: "分享到QQ"
+				}];
+			plus.nativeUI.actionSheet({
+				cancel: "取消",
+				buttons: bts
+			}, function(e) {
+				var i = e.index;
+				if(i > 0) {
+					var s_id = ids[i - 1].id;
+					var share = shares[s_id];
+					if(share.authenticated) {
+						shareMessage(share, ids[i - 1].ex);
+					} else {
+						share.authorize(function() {
+							shareMessage(share, ids[i - 1].ex);
+						}, function(e) {
+							console.log("认证授权失败：" + e.code + " - " + e.message);
+						});
+					}
+				}
+			});
+		});
+
+		function shareMessage(share, ex) {
+			var msg = {
+				extra: {
+					scene: ex
+				}
+			};
+			msg.href = "http://www.dcloud.io/hellomui/";
+			msg.title = "最接近原生APP体验的高性能前端框架";
+			msg.content = "我正在体验HelloMUI，果然很流畅，基本看不出和原生App的差距";
+			if(~share.id.indexOf('weibo')) {
+				msg.content += "；体验地址：http://www.dcloud.io/hellomui/";
+			}
+			msg.thumbs = ["_www/images/logo.png"];
+			share.send(msg, function() {
+				console.log("分享到\"" + share.description + "\"成功！ ");
+			}, function(e) {
+				console.log("分享到\"" + share.description + "\"失败: " + e.code + " - " + e.message);
+			});
+		}
+			document.getElementById('timelinegoTo').addEventListener('tap', function() {
+				//打开关于页面 
+				mui.openWindow({
+					url: 'timeline.html',
+					id: 'info'
+				});
+			});
+			document.getElementById('talk_lauchgoTo').addEventListener('tap', function() {
+				//打开关于页面 
+				mui.openWindow({
+					url: 'talk_lauch.html',
+					id: 'info'
+				});
+			});
+			document.getElementById('talkgoTo').addEventListener('tap', function() {
+				//打开关于页面 
+				mui.openWindow({
+					url: 'talk.html',
+					id: 'info'
+				});
+			});
+			document.getElementById('talkgoTo1').addEventListener('tap', function() {
+				//打开关于页面 
+				mui.openWindow({
+					url: 'talk.html',
+					id: 'info'
+				});
+			});
+		</script>
+	</body>
+
+</html>

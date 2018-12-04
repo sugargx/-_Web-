@@ -1,0 +1,55 @@
+body{
+	/*background-color: #FFFFFF;*/
+}
+.first{
+	margin: 10px;
+	padding: 10px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.second{
+	margin: 10px;
+	padding: 10px;
+}
+.second .name{
+	font-size: 30px;
+	line-height: 35px;
+	padding-bottom: 10px;
+}
+.second .time{
+	font-size: 17px;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+.second .info{
+	line-height: 20px;
+	padding-top: 10px;
+}
+.thrid{
+	height: 230px;
+	margin-bottom: 20px;
+}
+.thrid .mui-scroll h5{
+	height: 30px;
+	border-left: 10px solid green;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.forth .mui-scroll h5{
+	height: 30px;
+	border-left: 10px solid green;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.forth .mui-scroll ul li a img{
+	border-radius: 50%;
+}
+.forth .mui-scroll button{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.forth .mui-scroll .left{
+	margin-left: 50px;
+}
+.forth .mui-scroll .right{
+	margin-right: 60px;
+}
